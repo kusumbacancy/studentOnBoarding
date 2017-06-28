@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "id": "welcome",
+      "message": "My name is Dabee, I will be your helper on your learning journey!!!"
+    },
+    {
+      "id": "choose-avatar",
+      "message": "Choose your avatar"
+    },
+    {
+      "id": "avatar-selected",
+      "message": "Nice One!"
+    },
+    {
+      "id": "choose-interest",
+      "message": "Choose your interests"
+    },
+    {
+      "id": "interest-selected",
+      "message": "Nice One!"
+    }
+  ]
+}

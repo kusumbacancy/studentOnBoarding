@@ -1,0 +1,152 @@
+/*----------intial declartaion of css start----------*/
+* { padding: 0; margin: 0; box-sizing: border-box; }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, select, input, option { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; }
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
+audio, canvas, video { display: inline-block; }
+audio:not([controls]) { display: none; height: 0; }
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word }
+q { quotes: none }
+q:before, q:after { content: ''; content: none }
+small { font-size: 80% }
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline }
+sup { top: -0.5em; }
+sub { bottom: -0.25em }
+nav ul, nav ol { list-style: none; list-style-image: none; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; }
+textarea { overflow: auto; vertical-align: top }
+table { border-collapse: collapse; border-spacing: 0 }
+button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: none; appearance: none; cursor: pointer; }
+/* remember to define focus styles! */
+:focus { outline: 0; }
+ol, ul { list-style: none; }
+/* tables still need 'cellspacing="0"' in the markup */
+table { border-collapse: separate; border-spacing: 0; }
+caption, th, td { text-align: left; font-weight: normal; }
+a { text-decoration: none; outline: none; -moz-transition: all 200ms ease-in-out 0s; transition: all 200ms ease-in-out 0s;  -webkit-transition: all 200ms ease-in-out 0s; }
+a:hover { color: #f8981d; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+table { border: 0 none; border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+img { border: 0 none; max-width: 100%; }
+/* End hide from IE Mac */ .none { display: none; } /* End Clearfix */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block }
+.clear { clear: both; }
+/* For modern browsers */
+.cf:before, .cf:after { content: ""; display: table }
+.cf:after { clear: both; }
+/* For IE 6/7 (trigger hasLayout) */
+/*----------intial declartaion of css end----------*/
+
+/* font family start */
+/* font family end */
+
+
+/* base css start */
+html { width: 100%; height: 100%; }
+body { min-height: 100%; margin: 0; padding: 0; font-family: 'Open Sans', sans-serif; font-weight: normal; font-size:14px; line-height: 1.42857143; }
+#wrapper { width: 100%; float: left; padding: 0 0 0 0; margin: 0 0 0 0; }
+/* base css end */
+
+
+/* Login Page css Start */
+body.login-page { background:url(../images/bg.jpg) no-repeat; background-size:cover;}
+.login-box { max-width:420px; margin:15% auto 0 auto; width:100%;}
+.logo-login { width:125px; height:125px; text-align:center; display:inline-block; margin:0 0 60px 0; border-radius:100%; line-height:110px; background:#fff; -webkit-box-shadow: 2px 3px 5px 5px rgba(230,232,231,1);
+-moz-box-shadow: 2px 3px 5px 5px rgba(230,232,231,1);
+box-shadow: 2px 3px 5px 5px rgba(230,232,231,1);}
+.logo-login img { width:65px;}
+.login-box input { width:100%; height:60px; border:none; font-size:14px; font-weight:600; color:#6f6f6f; border-radius:0; padding:0 20px;}
+.login-box input:focus { border:none; outline:none; box-shadow:none;}
+.login-box .form-group a { text-decoration:underline; font-size:16px; font-weight:400; color:#6f6f6f;}
+.login-box .form-group a:hover { color:#06773a;}
+.login-box .form-group button, button { display:inline-block; background:#ff9430; color:#fff; font-size:16px; text-transform:uppercase; font-weight:600; border-radius:4px; padding:15px 60px; border:none; margin-top:12px; transition: all 200ms ease-in-out 0s;  -webkit-transition: all 200ms ease-in-out 0s;}
+.login-box .form-group button:hover, button:hover { background:#06773a;}
+/* Login Page css end */
+
+
+/*-------------- A_009 Page css Start --------------------*/
+/* header css start */
+#header-main { background:#fff;}
+#header-main .navbar-brand { height:inherit;}
+#header-main .navbar-brand img { height:40px;}
+#header-main .navbar { border:none;}
+#header-main .navbar-nav li { padding:0 15px;}
+#header-main .navbar-nav li a { line-height:68px; border-bottom:5px solid transparent; padding:0;}
+#header-main .navbar-default .navbar-nav>.active>a, #header-main .navbar-default .navbar-nav>.active>a:focus, #header-main .navbar-default .navbar-nav>.active>a:hover { color: #555; background-color: transparent;}
+#header-main .navbar-nav li a:hover { border-color: transparent;}
+#header-main .navbar-nav li a img { height:25px;}
+#header-main .navbar-nav li.avtar a img { height:45px; border-radius:100%;}
+#header-main .navbar-nav li.avtar a:hover { border-bottom:5px solid transparent;}
+#header-main .navbar-nav li.home a:focus { border-color:#50e3c2;}
+#header-main .navbar-nav li.lession a:focus { border-color:#ffbb48;}
+#header-main .navbar-nav li.lession.active a{ border-color:#ffbb48;}
+
+#header-main .navbar-nav li.love a:focus { border-color:#f16b2a;}
+#header-main .navbar-nav li.flag a:focus { border-color:#c7a0ff;}
+#header-main .navbar-nav li.pen a:focus { border-color:#5e65d8;}
+#header-main .navbar-nav li.bubble a:focus { border-color:#ff86bb;}
+#header-main .navbar-nav li.news a:focus { border-color:#8dc2ff;}
+#header-main .navbar-nav li.search-icon a:focus { border-color:#79fac4;}
+/* header css End */
+
+/* top slogan css start */
+.top-slogan { background:#676767; padding:9px 0;}
+.top-slogan p { margin:0 0 0 0; font-weight:600; font-size:18px; color:#fff;}
+/* top slogan css end */
+
+/* video section css start */
+.video-top { background:url(../images/videocontent.png) no-repeat; background-size:cover; min-height:800px; position:relative; border-bottom:5px solid #7a5599;}
+.video-top .play-btn { width:500px; height:500px; position:absolute; top:50%; left:50%; margin:-250px 0 0 -250px;}
+.video-top .play-btn img { width:500px;}
+.inner-video { position:absolute; padding:0 0 0 0; bottom:50px; width:100%;}
+.science-line { display:inline-block; padding:7px 15px; color:#fff; font-weight:600; font-size:18px; text-transform:uppercase; background:#7a5599; border-radius:4px;}
+.time-linemain { display:block; margin-top:15px}
+.time-linetop { display:inline-block; padding:7px 15px; color:#676767; font-weight:600; font-size:18px; text-transform:uppercase; background:#c0c3c5; border-radius:4px;}
+.inner-video h1 { margin:25px 0 7px 0; font-size:34px; text-transform:uppercase; color:#fff; font-weight:700;}
+.inner-video p { margin:0 0 0 0; font-size:22px; color:#fff; font-weight:300;}
+.right-video { margin-top:60px;}
+.right-video p { font-weight:600; text-transform:uppercase; color:#fff; font-size:16px;}
+.session-time { width:70px; height:70px; line-height:70px; display:inline-block; text-align:center; font-size:16px; font-weight:600; color:#fff; border-radius:100%; border:2px solid #fff; margin:15px 0 10px 0;}
+.right-video span { font-weight:300; display:block; color:#fff; font-size:14px;}
+/* video section css end */
+
+
+/* break section css start */
+.break-wrap { padding:20px 0;}
+.break-slogan { display:inline-block; padding:5px 15px; color:#fff; font-weight:600; font-size:16px; text-transform:uppercase; background:#f12a81; border-radius:4px;}
+.start-img img { height:65px;}
+.break-wrap p { font-weight:700; color:#656565; font-size:16px; margin:5px 0 0 0;}
+.accordian-wrap .panel-default .panel-heading, .accordian-wrap .panel { border:none; box-shadow:none; background:none; border-radius:0;}
+.accordian-wrap .panel-heading { padding-top:20px; padding-bottom:20px;}
+.panel-group .panel+.panel { margin-top:0 !important;}
+.panel-group { margin-bottom:0 !important;}
+
+.accordian-wrap .panel-heading.green {background:#7fd321;}
+.accordian-wrap .panel-heading.darkblue { background:#03a2a3;}
+.accordian-wrap .panel-heading.darkgray { background:#676767;}
+.accordian-wrap .panel-heading.lightblue { background:#2290e3;}
+.accordian-wrap .panel-heading.artbg { background:url(../images/art-bg.jpg) no-repeat; background-size:cover;}
+
+
+.accordian-wrap .panel-title { position:relative;}
+.panel-title span { display:inline-block; padding:5px 15px; color:#7fd321; font-weight:600; font-size:18px; text-transform:uppercase; background:#fff; border-radius:4px; margin-bottom:0px;}
+.panel-title p { font-weight:300; color:#fff; font-size:16px; margin:10px 0 0 0;}
+
+.panel-title a { float:right; width:60px; height:60px; border-radius:100%; background:#5e9e17; text-align:center; line-height:69px; position:absolute; top:10px; right:0;}
+.panel-title a .glyphicon-plus-sign { background:url(../images/plus-sign.png) no-repeat center; width:20px; height:20px; display:inline-block;}
+.panel-title a .glyphicon-minus-sign { background:url(../images/minus-sign.png) no-repeat center; width:20px; height:4px; display:inline-block; position:relative; top:-8px;}
+.glyphicon-plus-sign:before, .glyphicon-minus-sign:before { display:none;}
+.accordian-wrap .panel-heading.darkblue .panel-title a { background:#007977;}
+.accordian-wrap .panel-heading.darkgray .panel-title a { background:#4c4c4c;}
+.accordian-wrap .panel-heading.lightblue .panel-title a { background:#1e84d0;}
+.accordian-wrap .panel-heading.artbg .panel-title a { background:rgba(0, 0, 0, 0.3);}
+
+.accordian-wrap .panel-heading.darkblue .panel-title span { color:#03a2a3;}
+.accordian-wrap .panel-heading.darkgray .panel-title span { color:#676767;}
+.accordian-wrap .panel-heading.lightblue .panel-title span { color:#2290e3;}
+.accordian-wrap .panel-heading.artbg .panel-title span { background:none; color:#fff; padding-left:0;}
+
+/* break section css end */
+
+/*-------------- A_009 Page css end --------------------*/
